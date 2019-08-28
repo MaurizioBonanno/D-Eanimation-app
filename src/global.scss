@@ -24,3 +24,32 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.avatar {
+    max-height: auto;
+    max-width: 35vh;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .mini-avatar{
+    max-height: 5vh;
+    max-width: 5hv;
+    text-align: center;
+  }
+
+.text-nodecoration {
+    text-decoration: none;
+}
+
+.page-loader {
+    top: 45%;
+    left: 45%;
+    position: relative;
+}
+
+.user-avatar {
+    height: 100px;
+    width: 100px;
+}

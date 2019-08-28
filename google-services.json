@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "872799106461",
+    "firebase_url": "https://gameofkings-51cc3.firebaseio.com",
+    "project_id": "gameofkings-51cc3",
+    "storage_bucket": "gameofkings-51cc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872799106461:android:72ed92ea1cea99a3",
+        "android_client_info": {
+          "package_name": "com.ionic.firebase.deanimation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872799106461-bs7rsfqmks7p4bd0kkdcdhjt4c2eaemr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ionic.firebase.deanimation",
+            "certificate_hash": "f0309f5332031ed91270feff3c0ca6473e09de9c"
+          }
+        },
+        {
+          "client_id": "872799106461-icagohl987fju4v6e2mrv7fl0h72dh0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL8jh62kZfW3ljzpZYxYTEh29yGHvLEi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872799106461-icagohl987fju4v6e2mrv7fl0h72dh0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872799106461:android:4a59e650c3c8717b",
+        "android_client_info": {
+          "package_name": "com.ionicapp.mycoolApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872799106461-icagohl987fju4v6e2mrv7fl0h72dh0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL8jh62kZfW3ljzpZYxYTEh29yGHvLEi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872799106461-icagohl987fju4v6e2mrv7fl0h72dh0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

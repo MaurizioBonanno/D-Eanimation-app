@@ -1,5 +1,7 @@
 {
   "name": "dandeanimation",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

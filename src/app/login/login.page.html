@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+      </ion-buttons>
+    <ion-title>Accedi</ion-title>
+   
+    <ion-buttons slot="end">
+      <ion-button (click)="presentPopover($event)" >
+        <ion-icon slot="icon-only" name="more">
+
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid fixed>
+
+    <ion-row class="ion-justify-content-center">
+
+      <ion-col size="10" size-lg="8" *ngIf="!user">
+
+          <ion-card >
+              <img class="avatar" src="../../assets/D&ELogo.png" />
+              <ion-card-header>
+                <ion-card-subtitle>Accedi</ion-card-subtitle>
+                <ion-card-title><ion-icon name="person"></ion-icon></ion-card-title>
+              </ion-card-header>
+            
+              <ion-card-content>
+                Accedi con il tuo account Google , per i contenuti esclusivi riservati,
+                entra nel magico mondo D&EAnimation
+              </ion-card-content>  
+              <ion-item>
+                <ion-icon name="logo-google" slot="start"></ion-icon>
+                <ion-label>Accesso Gratuito</ion-label>
+                <ion-button fill="outline" slot="end" (click)="login()">ACCEDI</ion-button>
+              </ion-item>
+            </ion-card>
+            
+          
+        
+      </ion-col>
+      <ion-col size="10" size-lg="8" *ngIf="user">
+
+          <ion-card>
+              <img class="avatar" src="{{user.__zone_symbol__value.photoURL}}">
+              <ion-card-header>
+                <ion-card-subtitle>Profilo</ion-card-subtitle>
+                <ion-card-title>{{ user.__zone_symbol__value.displayName}}</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+              </ion-card-content>
+            </ion-card>
+
+      </ion-col>
+
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

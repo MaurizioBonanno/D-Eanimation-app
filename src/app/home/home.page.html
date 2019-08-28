@@ -1,14 +1,33 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="end">
+      <a href="login">
+        <ion-icon name="person"></ion-icon>
+        Accedi
+      </a>
+    </ion-buttons>
     <ion-title>
-      Ionic Blank
+      D&E Animation
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-row class="ion-justify-content-center">
+
+  <ion-col size="12" size-lg="6" *ngIf="newstListAvailable">
+      <ion-card *ngFor="let news of newsList">
+        <img src="{{news.foto}}" />
+        <ion-card-header>
+          <ion-card-subtitle>{{news.data}}</ion-card-subtitle>
+          <ion-card-title>{{news.titolo}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+        {{news.descrizione}}  
+        </ion-card-content>
+      </ion-card>
+  </ion-col>
+</ion-row>
+
+
 </ion-content>
